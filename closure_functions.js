@@ -24,3 +24,9 @@ soundMaker("Whooooooo", 18);
 //     return sum;
 // }
 // console.log(summation([1,2,3,4]));
+/*
+closure function is the function which is called inside
+the parent function it can acess whatever the values and
+parameters which are predefined before it.
+
+*/
