@@ -9,3 +9,12 @@ NBAPlayer.prototype.sayhello = function(){
 }
 curry.__proto__
 curry.sayhello();
+/*
+After calling this sayhello function on the object curry .
+it will look through 
+the function NBAPlayer whether it has or not 
+then it comes to the curry.__proto__ and 
+looks for NBAPlayer.prototype and find out the defin
+ation of the sayhello function
+
+*/
