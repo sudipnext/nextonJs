@@ -17,6 +17,9 @@ then it comes to the curry.__proto__ and
 looks for NBAPlayer.prototype and find out the defin
 ation of the sayhello function
 
+HERE NBAPlayer is a constructor cause we called it with the
+camecase ie first letter is capital so it's necessary to do that
+in order for the code to work.
 
 we can also define throught the function directly on 
 the NBAPlayer but this will create again wehen we 
