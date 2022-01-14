@@ -7,7 +7,6 @@ function soundMaker(sound, times){
     }
     for(let i=0; i< times; i++){
         makeSound();
-
     }
 }
 soundMaker("Whooooooo", 18);
