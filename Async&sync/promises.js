@@ -20,4 +20,28 @@ let order = (time, work) => {
     })
 }
 
-order(2000, ()=>console.log(`${stocks.Fruits[0]} was selected!`));
+order(2000, ()=>console.log(`${stocks.Fruits[0]} was selected!`))
+
+.then(()=>{
+    return order(0000, ()=>console.log("Production has started!"))
+})
+
+.then(()=>{
+    return order(2000, ()=>console.log("The fruit was chopped!"))
+})
+
+.then(()=>{
+    return order(1000, ()=>console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} were added!`))
+})
+.then(()=>{
+    return order(1000, ()=>console.log(`MACHINE IS STARTED!`))
+})
+.then(()=>{
+    return order(1000, ()=>console.log(`${stocks.holder[0]} was placed!`))
+})
+.then(()=>{
+    return order(3000, ()=>console.log(`${stocks.toppings[0]} is added!`))
+})
+.then(()=>{
+    return order(2000, ()=>console.log(`ICECREAM IS SERVED!`))
+})
