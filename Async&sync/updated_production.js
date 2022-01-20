@@ -34,9 +34,9 @@ let production = () => {
                         console.log(`${stocks.holder[0]} is selected`)
                         setTimeout(() => {
                             console.log(`${stocks.toppings[0]} is selected!`)
-                                setTimeout(()=>{
-                                    console.log("The icecream was served")
-                                }, 2000)
+                            setTimeout(() => {
+                                console.log("The icecream was served")
+                            }, 2000)
                         }, 3000)
                     }, 2000)
                 }, 1000)
@@ -46,5 +46,5 @@ let production = () => {
     // blank for now
 };
 
-// Trigger 👇
+// Trigger 
 order(0, production);
