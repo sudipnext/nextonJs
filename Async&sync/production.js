@@ -22,4 +22,4 @@ let order=(Fruit_name, call_production) =>{
 let production =() =>{
     console.log("Thanks, i will start production now, starting....")
 }
-order("Strawberry", production);
+order(0, production);
