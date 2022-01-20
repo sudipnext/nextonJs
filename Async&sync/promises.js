@@ -48,3 +48,6 @@ order(2000, ()=>console.log(`${stocks.Fruits[0]} was selected!`))
 .catch(()=>{
     console.log("customer left!")
 })
+.finally(()=>{
+    console.log("Day ended, come back tomorrow!")
+})
