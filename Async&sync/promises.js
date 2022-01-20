@@ -49,5 +49,5 @@ order(2000, ()=>console.log(`${stocks.Fruits[0]} was selected!`))
     console.log("customer left!")
 })
 .finally(()=>{
-    console.log("Day ended, come back tomorrow!")
+    console.log("Day ended, Shop is closed!")
 })
