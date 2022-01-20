@@ -26,7 +26,7 @@ let stocks = {
             console.log("The fruit has been chopped")
                 setTimeout(()=>{
                     console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} were added`)
-                })
+                }, 1000)
         }, 2000)
       },0000)
     // blank for now
