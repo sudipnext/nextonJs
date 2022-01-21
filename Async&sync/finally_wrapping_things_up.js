@@ -32,6 +32,15 @@ async function kitchen(){
         await time(1000);
         console.log(`${stocks.liquid[0]} and ${stocks.liquid[1]} are added!`);
 
+        await time(0000)
+        console.log("Machine was started!")
+        await time(2000)
+        console.log(`${stocks.holder[0]} is selected`)
+        await time(3000)
+        console.log(`${stocks.toppings[0]} is selected!`)
+        await time(1000)
+        console.log("The icecream was served")
+
     }
     catch(error){
         console.log("Customer left",error)
