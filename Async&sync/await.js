@@ -11,7 +11,11 @@ let is_shop_open = true;
 let toppings_choice = ()=>{
     return new Promise((resolve, reject)=>{
         setTimeout(()=>{
-            console.log("Which topping would you prefer?")
+            resolve(
+                console.log("Which topping would you prefer?")
+
+            )
+           
 
         }, 3000)
 
@@ -29,3 +33,5 @@ async function kitchen(){
 kitchen()
 console.log("Cleaning the dishes")
 console.log("table are cleaning!!")
+//await waits for the specific function to be completed before the toppings_choice
+//is completed. By the way all the outer things are working properly
