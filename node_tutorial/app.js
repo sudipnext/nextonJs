@@ -1,10 +1,10 @@
 const names = require('./names')
 const sayHi = require('./calling')
+const items = require('./items')
+require('./mind-grenade')
 // console.log(names)
 
-
+sayHi(items.person['name'])
 sayHi(names.sudip)
 sayHi("HI, HOW ARE YOU?")
 sayHi(names.name_google)
-
-
