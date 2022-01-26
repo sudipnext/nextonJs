@@ -1,3 +1,4 @@
+const { fstat } = require('fs')
 const os = require('os')
 
 //using built-in module

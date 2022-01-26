@@ -54,20 +54,20 @@ order(2000, ()=>console.log(`${stocks.Fruits[0]} was selected!`))
 })
 
 //Try commenting up and running below to get a grasp of async function
-async function order(){
-    try{
-        await abc;
-    }
-    catch(error){
-        console.log("abc doesn't exits!", error)
-    }
+// async function order(){
+//     try{
+//         await abc;
+//     }
+//     catch(error){
+//         console.log("abc doesn't exits!", error)
+//     }
 
-    finally{
-        console.log("Runs code anyways")
-    }
-}
+//     finally{
+//         console.log("Runs code anyways")
+//     }
+// }
 
 order()
-.then(()=>{
-    console.log("what?")
-})
+// .then(()=>{
+//     console.log("what?")
+// })

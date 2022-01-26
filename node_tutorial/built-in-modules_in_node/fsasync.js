@@ -1,7 +1,9 @@
-const { readFile, writeFile } = require("fs");
-const { resourceUsage } = require("process");
+const { readFile, writeFile, fstat } = require("fs");
+
+// const { resourceUsage } = require("process");
 // const fs = requier('fs') --2nd way to do same thing
 console.log("start");
+
 readFile("./content/first.txt", "utf8", (err, result) => {
   if (err) {
     console.log(err);
