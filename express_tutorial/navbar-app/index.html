@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./main.css">
+	<title>CREATORS</title>
+	
+</head>
+
+<body>
+	<nav class="navbar">
+		<h1 class="logo">&lt;CREATORS/&gt;</h1>
+		<ul class="nav-links">
+			<li class="active"><a href="#"></a>HOME</li>
+			<li><a href="#"></a>ABOUT US</li>
+			<li><a href="#"></a>CONTACT US</li>
+			<li><a href="#"></a>IMP-LINKS</li>
+			<li class="ctn"><a href="#"></a>EXCESS</li>
+		</ul>
+		<div class="menu-btn">
+			<svg width="40" height="40" viewBox="0 0 32 42" xmlns="http://www.w3.org/2000/svg"
+				onclick="this.classList.toggle('active')">
+				<g transform="matrix(1,0,0,1,-438.286,-264.004)">
+					<g id="arrow_left1">
+						<g transform="matrix(-1,-1.22465e-16,1.22465e-16,-1,858.787,564.935)">
+							<path id="top"
+								d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967" />
+						</g>
+						<g transform="matrix(-1,-2.44929e-16,-2.44929e-16,1,858.786,5)">
+							<path id="bottom"
+								d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967" />
+						</g>
+						<g transform="matrix(-1,-1.22465e-16,1.22465e-16,-1,858.787,569.935)">
+							<path id="middle" d="M390,284.967L420,284.967" />
+						</g>
+					</g>
+				</g>
+			</svg>
+		</div>
+	</nav>
+	
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click', () => {
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+</body>
+
+</html>
