@@ -1,0 +1,25 @@
+{
+  "name": "express-testing",
+  "version": "1.0.0",
+  "description": "Just trying out how it works",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nah"
+  },
+  "keywords": [
+    "meta"
+  ],
+  "author": "Sudip Parajuli",
+  "license": "MIT",
+  "dependencies": {
+    
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
