@@ -1,10 +1,11 @@
 const express = require("express");
 const app = express();
 const logger = require('./logger')
+const authorize = require('./authorize')
 
 //req => middelware=> res
-app.use(logger) //order matters
-
+// app.use('/api',logger) //order matters  //it works with only specific routes like it wil come after anything come after api
+app.use([logger, authorize]) //which comes first will works first
 app.get("/", (req, res) => {
   res.send("Home");
 });
