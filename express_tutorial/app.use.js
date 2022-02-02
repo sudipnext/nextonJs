@@ -1,11 +1,14 @@
 const express = require("express");
+const morgan = require('morgan')
 const app = express();
 const logger = require('./logger')
 const authorize = require('./authorize')
 
 //req => middelware=> res
 // app.use('/api',logger) //order matters  //it works with only specific routes like it wil come after anything come after api
-app.use([logger, authorize]) //which comes first will works first
+// app.use([logger, authorize]) //which comes first will works first
+// app.user(express.static('./public'))
+app.use(morgan('tiny')) //third party middleware
 app.get("/", (req, res) => {
   res.send("Home");
 });
