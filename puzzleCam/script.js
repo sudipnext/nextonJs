@@ -36,6 +36,6 @@ function main() {
     });
 }
 function updateCanvas() {
-  CONTEXT.drawImage(VIDEO, SIZE.x, SIZE.y, SIZE.width, SIZE.height);
+  CONTEXT.drawImage(VIDEO,0,0);
   window.requestAnimationFrame(updateCanvas);
 }

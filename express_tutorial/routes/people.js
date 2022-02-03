@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 router.post("/", (req, res) => {
   const { name } = req.body;
   if (!name) {
-    return res.status(400).json({ sucess: false, msg: "please name value" });
+    return res.status(400).json({ sucess: false, msg: "please name values" });
   }
   res.status(201).send({ sucess: true, person: name });
 });
