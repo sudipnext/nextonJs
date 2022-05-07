@@ -90,14 +90,54 @@
 //acessing the n'th child
 
 ////QuerySelectall////
-var titles = document.querySelectorAll('.title');
-console.log(titles)
-titles[0].textContent = 'Hello';
+// var titles = document.querySelectorAll('.title');
+// console.log(titles)
+// titles[0].textContent = 'Hello';
 
-var odd = document.querySelectorAll('li:nth-child(odd)');
-var odd = document.querySelectorAll('li:nth-child(even)');
+// var odd = document.querySelectorAll('li:nth-child(odd)');
+// var odd = document.querySelectorAll('li:nth-child(even)');
 
-for(let i=0; i<odd.length; i++){
-    odd[i].style.backgroundColor = '#f4f4f4';
-    even[i].style.backgroundColor = '#f4f4f4';
-}
+// for(let i=0; i<odd.length; i++){
+//     odd[i].style.backgroundColor = '#f4f4f4';
+//     even[i].style.backgroundColor = '#f4f4f4';
+// }
+
+
+//Traversing the parentElement
+var itemList = document.querySelector('#items');
+// //parentnode
+// console.log(itemList.parentNode)
+// itemList.parentNode.style.backgroundColor = 'purple';
+// itemList.parentNode.parentNode.style.backgroundColor = 'blue';
+// itemList.parentNode.parentNode.parentNode.style.backgroundColor = 'red';
+
+// parentElement 
+// itemList.parentElement.style.backgroundColor = 'purple';
+// itemList.parentElement.parentElement.style.backgroundColor = 'blue';
+// itemList.parentElement.parentElement.parentElement.style.backgroundColor = 'red';
+
+
+// parent node and parent element are two things used to primarly select the parent element of the particular class or id we can do this to grab the parent when we don't know the name or we just want to do this real quick!
+
+
+// clidenode 
+//generally don't use childnode use children instead
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.backgroundColor = 'yellow'
+
+//first-child
+// console.log(itemList.firstChild);
+// console.log(itemList.firstElementChild)
+// itemList.firstElementChild.textContent = "SayHello"
+// console.log(itemList.lastChild)
+// itemList.lastElementChild.textContent = "Hello4"
+
+//siblings
+// console.log(itemList.nextElementSibling)
+
+//previouSibling
+
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.style.backgroundColor = "blue";
+
