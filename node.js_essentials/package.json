@@ -1,0 +1,21 @@
+{
+  "name": "node.js_essentials",
+  "version": "1.0.0",
+  "description": "praticing some node skills",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "sudipnext",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
+}
