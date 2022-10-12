@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #282D35;
+    height: 100vh;
+
+}
+
+/*Navbar styling*/
+
+.navcontainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 26px; 
+    background: #21222A;
+    height: 91px; 
+}
+.logo_name{
+    color: #61DAFB;
+    font-weight: bolder;
+    font-size: x-large;    
+}
+
+.title{
+    color: #DEEBF8;
+    margin-left: auto;
+    padding-right:20px; 
+    font-weight: bold;
+    
+    
+}
+img{
+    width: 28.93px;
+    height: 28.93px;    
+}
+    
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 26px; 
+    
+}
+.main{
+    color: white;
+    margin-top: 57px;    
+}
+ul li::before {
+  content: "\2022";
+  color: #61DAFB;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -0.8em;
+}
+.MainContainer >ul > li{
+    color: white;
+    margin-bottom: 17.81px;
+    font-size: large
+    
+}
+/*Whole*/
