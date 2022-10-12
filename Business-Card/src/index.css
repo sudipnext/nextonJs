@@ -1,0 +1,83 @@
+*{
+  color: white;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+/* main global*/
+.container{
+  width: 45%;
+  margin-left: 25%;
+  padding: 40px 40px 40px 40px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1A1B21;
+}
+/* navigation and info  */
+.profile img{
+  width: 100%;
+}
+.info{
+  text-align: center; 
+}
+.fullname{
+  font-weight: bolder;
+  font-size: 180%;
+  font-family: 'Silkscreen', cursive;
+
+
+}
+.subtitle{
+  color:#F3BF99;
+  ;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 5px;
+
+}
+.subsubtitle{
+  font-family: 'Oswald', sans-serif;
+
+}
+.btn{
+  border: none;
+  background-color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+/* body  */
+.main-body{
+  display: flex;
+  flex-direction: column;
+
+}
+.about{
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+
+}
+.interest{
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 10px;
+}
+/* footer with icons  */
+.icons{
+  margin-top: 20px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: row wrap;
+}
+.icon{
+  margin-left: 20px;
+}
