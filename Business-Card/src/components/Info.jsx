@@ -12,7 +12,7 @@ export default function Info(){
                 <h3 className='subtitle'>Tech Enthuastic</h3>
                 <h5 className='subsubtitle'>Engineering Student </h5>
                 <button className='btn'>Email</button>
-                <button className='btn'>Linkedin</button>
+                <button className='btn_btn'>Linkedin</button>
 
             </nav>
         </div>

@@ -1,83 +1,209 @@
-*{
+* {
   color: white;
   margin: 0;
+  /* overflow: hidden; */
   box-sizing: border-box;
-  
 }
 /* main global*/
-.container{
-  width: 45%;
-  margin-left: 25%;
-  padding: 40px 40px 40px 40px;
+.container {
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 20px 20px 20px 20px;
   border: 1px solid red;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #1A1B21;
+  background-color: #1a1b21;
 }
 /* navigation and info  */
-.profile img{
-  width: 100%;
+.profile img {
+  width: 80%;
 }
-.info{
-  text-align: center; 
-}
-.fullname{
-  font-weight: bolder;
-  font-size: 180%;
-  font-family: 'Silkscreen', cursive;
-
-
-}
-.subtitle{
-  color:#F3BF99;
-  ;
-  font-family: 'Oswald', sans-serif;
-  margin-bottom: 5px;
-
-}
-.subsubtitle{
-  font-family: 'Oswald', sans-serif;
-
-}
-.btn{
-  border: none;
-  background-color: black;
-  padding: 15px 32px;
+.info {
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+}
+.fullname {
   font-weight: bolder;
+  font-size: 140px;
+  font-family: "Silkscreen", cursive;
+}
+.subtitle {
+  letter-spacing: 2px;
+  color: #f3bf99;
+  font-family: "Oswald", sans-serif;
+  font-size: 140px;
+  margin-bottom: 5px;
+}
+.subsubtitle {
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.btn {
+  border: none;
+  background-color: white;
+  padding: 5% 10%;
+  text-align: center;
+  color: black;
+  display: inline-block;
+  font-size: 100px;
+  font-weight: bolder;
+  margin: 8px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn_btn {
+  background-color: blue;
+  padding: 5% 6%;
   margin: 4px 2px;
   cursor: pointer;
-
+  font-weight: bolder;
+  font-size: 100px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 /* body  */
-.main-body{
+.main-body {
   display: flex;
   flex-direction: column;
-
+  margin-left: 12%;
 }
-.about{
+.about {
   margin-right: auto;
   text-align: left;
+  font-size: 125px;
   margin-bottom: 10px;
-  font-family: 'Oswald', sans-serif;
-
+  font-family: "Oswald", sans-serif;
 }
-.interest{
-  font-family: 'Oswald', sans-serif;
+.text {
+  font-size: 80px;
+  text-align: left;
+  margin-right: 18%;
+}
+.interest {
+  font-size: 125px;
+  font-family: "Oswald", sans-serif;
   margin-bottom: 10px;
 }
 /* footer with icons  */
-.icons{
-  margin-top: 20px; 
+.icons {
+  background-color: #161619;
   display: flex;
+
   justify-content: center;
-  flex-wrap: row wrap;
+  flex-flow: row wrap;
+  margin-top: 40px;
 }
-.icon{
-  margin-left: 20px;
+.icon {
+  margin-left: 100px;
 }
+
+/* Responsiveness  */
+
+/* mobile */
+@media only screen and (max-width: 512px) {
+  /* main  */
+  .container {
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1a1b21;
+  }
+  /* navigation and info  */
+  .profile img {
+    width: 80%;
+  }
+  .info {
+    text-align: center;
+  }
+  .fullname {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Silkscreen", cursive;
+  }
+  .subtitle {
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #f3bf99;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 5px;
+  }
+  .subsubtitle {
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+  }
+  .btn {
+    border: none;
+    background-color: white;
+    font-size: medium;
+    padding: 4% 11%;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    font-weight: bolder;
+    margin: 8px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .btn_btn {
+    background-color: blue;
+    font-size: medium;
+    padding: 4% 6%;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* body  */
+  .main-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+  }
+  .about {
+    font-size: 30px;
+    margin-right: auto;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: "Oswald", sans-serif;
+  }
+  .text {
+    font-size: 20px;
+    text-align: left;
+    margin-right: 18%;
+  }
+  .interest {
+    font-size: 30px;
+
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 10px;
+  }
+  /* footer with icons  */
+  .icons {
+    background-color: #161619;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 40px;
+  }
+  .icon {
+    
+    margin-left: 20px;
+  }
+  .icon img{
+    width: 40px;
+  }
+}
+
+/* tablet view  */

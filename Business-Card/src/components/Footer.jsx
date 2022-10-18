@@ -7,10 +7,10 @@ export default function Footer() {
   return (
 
       <div className="icons">
-        <div className='icon'><img src={fb} width="40px"></img></div>
-        <div className='icon'><img src={twitter} width="40px"></img></div>
-        <div className='icon'><img src={linkedin} width="40px"></img></div>
-        <div className='icon'><img src={github} width="40px"></img></div>
+        <div className='icon'><img src={fb} width="100px"></img></div>
+        <div className='icon'><img src={twitter} width="100px"></img></div>
+        <div className='icon'><img src={linkedin} width="100px"></img></div>
+        <div className='icon'><img src={github} width="100px"></img></div>
       </div>
   );
 }
