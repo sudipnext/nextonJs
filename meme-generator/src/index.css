@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+.navbar{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px; 
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+}
+.navbar > img{
+  align-self: center;
+  height: 26px;
+  width: 31px;
+  margin-right: 5px; 
+  
+}
+.Logo{
+  font-size: 20px;   
+}
+.project{
+  margin-left: auto;
+  font-size: 15px;
+  
+}
+.forms{
+  margin-top: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.forms > .inputs{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  resize: vertical;
+  margin-left: 36px;
+  margin-right: 36px;   
+}
+.inputs > :first-child{
+  margin-right: 17px;   
+   
+}
+.inputs > :first-child, .inputs > :last-child{
+  width: 100%;
+}
+.forms > button{
+  border: none;
+  color: white;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  margin-left: 36px;
+  margin-right: 36px;
+  height: 40px;
+  cursor: pointer;
+}
