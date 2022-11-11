@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@font-face {
+  font-family: 'Cursed';
+  src: url('./CursedTimerULiL.ttf'); /* add the file path to your font here */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  font-family: "Cursed";
+}
+body{
+  display: flex;
+}
+
+
+.wrapper {
+  padding: 90px;
+  border: 4px solid white;
+  display: flex;
+  justify-content: center;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  background-color: black;
+}
+.home {
+  border: 4px solid white;
+  padding: 40px;
+}
+.guest {
+  padding: 40px;
+  border: 4px solid white;
+}
+button {
+  border-radius: 2px;
+  padding: 4px;
+  padding-bottom: 8px;
+  color: white;
+  background: linear-gradient(red, black);
+}
+#reset{
+  margin-top: 10px;
+}
+#score-one, #score-two{
+  color: red;
+  padding: 10px;
+  font-size: 100px;
+}
+.name{
+  font-family: 'poppins';
+}
