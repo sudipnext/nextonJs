@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.wrapper {
+    border: 4px solid goldenrod;
+    margin:0 auto;
+    min-width: 300px;
+    height: 100vh;
+  background-image: url("./images/casino.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: goldenrod;
+}
+p {
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+#message-el {
+  font-style: italic;
+}
+h1 {
+  font-size: 40px;
+  background: linear-gradient(goldenrod, orange);
+  color: white;
+}
+
+button {
+  color: white;
+  width: 150px;
+  background: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
