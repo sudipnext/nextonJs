@@ -1,6 +1,6 @@
 # nextonJs
 Just praticing nodejs and learning some cool javascript
-some of the hosted projects
+some of the hosted projects<br>
 https://sitecreator.netlify.app<br>
 https://passwordsgeneratorss.netlify.app/<br>
 https://travellingjournal.netlify.app/<br>
