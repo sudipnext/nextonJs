@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(blue, green);
+}
+body{
+  min-width: 500px;
+  min-height: 200px;
+  background: url("background.jpg");
+  background-size: cover;
+}
+button {
+  color: white;
+  border: none;
+  padding: 20px 20px;
+}
+input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+}
+#save-tab {
+  background: green;
+}
+#del-btn {
+  background: rgb(201, 26, 26);
+}
+#save-btn {
+  font-weight: bolder;
+  margin-left: 20px;
+  background: green;
+}
+#save-tab,
+#save-btn,
+#del-btn {
+  font-size: 15px;
+  width: 130px;
+}
+li{
+  margin-left: 20px;
+  list-style: none;
+}
