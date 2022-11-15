@@ -7,29 +7,39 @@
   box-sizing: border-box;
   color: white;
 }
+body {
+  background: black;
+}
 h5 {
   color: rgba(255, 255, 255, 0.747);
 }
+.text-one {
+  font-size: 40px;
+}
 p {
-    font-size: 10px;
+  font-size: 10px;
   color: #157a6e;
 }
 .text-two {
   color: #157a6e;
+  font-size: 40px;
 }
 .wrapper {
-  background: #001011;
+  background: #273549;
+  border-radius: 6px;
   display: block;
-  margin: 80px auto;
-  width: 400px;
-
+  margin: 20px auto;
+  width: 550px;
+  height: 550px;
   padding: 10px;
 }
 
 button {
+  width: 191px;
+  height: 42px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background: #157a6e;
+  background: #13a392;
   padding: 4px 10px;
   border-radius: 5px;
   color: white;
@@ -40,13 +50,24 @@ button {
   justify-content: center;
 }
 #pass {
-  background: hsl(219, 32%, 78%);
+  background: #273549;
+  border-radius: 6px;
   padding: 2px 50px;
   margin-top: 20px;
+  width: 211px;
+  height: 39px;
+  font-size: 16px;
+  color: #55f991;
 }
-#pass1 {
+#pass1,
+#pass2 {
+  color: #55f991;
+  font-size: 16px;
   padding: 2px 50px;
   margin-top: 20px;
-  background: #b6c2d9;
+  background: #273549;
+  border-radius: 6px;
   margin-left: 10px;
+  width: 211px;
+  height: 39px;
 }

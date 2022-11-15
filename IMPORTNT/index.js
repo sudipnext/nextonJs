@@ -3,6 +3,7 @@ let saveBtn = document.getElementById("save-btn");
 let saveTab = document.getElementById("save-tab");
 let delBtn = document.getElementById("del-btn");
 let ulEl = document.getElementById("fields");
+let pEl = document.getElementById("p-el");
 let arr = [];
 let linksFromLocal = JSON.parse(localStorage.getItem("mylinks"));
 //default rendering all the links from local storage
@@ -10,11 +11,22 @@ if (linksFromLocal) {
   arr = linksFromLocal;
   renderer(arr);
 }
+function timeout() {
+  pEl.textContent = "This link already Exists!";
+  setTimeout(() => {
+    pEl.textContent = "";
+  }, 1000);
+}
 //for saving each links
 saveBtn.addEventListener("click", () => {
-  arr.push(inputEl.value);
+  if (!arr.includes(inputEl.value)) {
+    arr.push(inputEl.value);
+    inputEl.value = "";
+    localStorage.setItem("mylinks", JSON.stringify(arr));
+  } else {
+    timeout();
+  }
   inputEl.value = "";
-  localStorage.setItem("mylinks", JSON.stringify(arr));
   renderer(arr);
 });
 
@@ -28,9 +40,13 @@ delBtn.addEventListener("dblclick", () => {
 //for saving the link we get in the tab
 saveTab.addEventListener("click", () => {
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    arr.push(tabs[0].url);
-    localStorage.setItem('mylinks', JSON.stringify(arr))
-    renderer(arr)
+    if (!arr.includes(tabs[0].url)) {
+      arr.push(tabs[0].url);
+      localStorage.setItem("mylinks", JSON.stringify(arr));
+    } else {
+      timeout();
+    }
+    renderer(arr);
   });
 });
 
