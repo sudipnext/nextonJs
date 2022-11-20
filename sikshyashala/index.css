@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* default styling */
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+  background: wheat;
+}
+.container-header {
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+  align-items: center;
+}
+.logo {
+  padding-left: 20px;
+  width: 150px;
+  margin-right: 20px;
+}
+.input-field {
+  width: 300px;
+  height: 25px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 0.1px solid wheat;
+  color: black;
+  background: whitesmoke;
+}
+.search {
+  margin-left: 8px;
+  border-radius: 20%;
+  background: whitesmoke;
+}
+.icons-top {
+  margin: 0px 12px;
+}
+.home {
+  margin-left: auto;
+}
+/* search suggestions section */
+.container {
+  width: 90%;
+  padding-left: 20px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  margin-top: 50px;
+}
+.searches {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 4px 8px;
+  background: wheat;
+  font-weight: 200;
+  font-size: 12px;
+}
+.you-might {
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+/* another logo with the image section  */
+.big-logo {
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+  background-size: cover;
+}
+.third {
+  background-color: #252525;
+  padding: 20px 0px;
+}
+/* categories section  */
+.manage-categories {
+  padding-left: 20px;
+}
+.cat-name {
+  display: flex;
+  color: white;
+  border: 2px solid white;
+  padding: 3px 10px;
+  background: #ff9933;
+}
+.categories {
+  width: 30%;
+}
+.greater-than {
+  filter: invert(94%) sepia(5%) saturate(6%) hue-rotate(153deg) brightness(92%)
+    contrast(83%);
+  margin-left: auto;
+}
+.all-cat {
+  margin-bottom: 20px;
+}
+/* main section  */
+.main {
+  display: flex;
+  margin-top: 40px;
+}
+.mock-exam {
+  background-color: #0099cc;
+  padding: 30px;
+  margin-left: 20px;
+  font-weight: 800;
+  font-size: 30px;
+  align-self: flex-start;
+}
+
+/* footer */
+.credits {
+  font-size: 12px;
+  width: 200px;
+  margin: 0 auto;
+}
